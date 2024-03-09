@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgb(164, 128, 242);
+  }
+  
+  .cell:hover {
+    background-color: #eb6b6b;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .restart-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight:bold;
+  }
+  
+  .restart-btn:hover {background-color: grey; color: white;}
